@@ -1,0 +1,71 @@
+.container {
+    margin: 0 auto;
+    width: 1600px;
+    height: 1200px;
+    background: rgb(248, 231, 231);
+}
+
+.box {
+    width: 606px;
+    height: 850px;
+    padding: 64px 104px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 44px 84px -60px rgba(113, 19, 160, 0.09);
+}
+
+.my-channel {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    width: 350px;
+    height: 21px;
+    padding: 24px;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.search-box:focus {
+    background: yellow;
+    border: 1px solid black;
+}
+
+.agree {
+    padding-top: 64px;
+}
+
+.agree-check {
+    border-radius: 8px;
+    border: 1px solid #C2ADC2;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.continue {
+    width: 400px;
+    height: 71px;
+    margin: 24px;
+    background-color: #A30062;
+    border-radius: 8px;
+    border: 1px solid #C2ADC2;
+    cursor: pointer;
+}
+
+.continue:hover {
+    background-color: blue;
+}
+
+.already {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
